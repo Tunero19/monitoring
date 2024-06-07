@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="main.css">
+    <title>Monitoring Dashboard</title>
+</head>
+<body>
+    <section id="header">
+        <div class="logo-pg"><a href="#"><img src="images/logo.png" class="logo" alt=""></a></div>
+        <h2>Monitoring Dashboard</h2>
+        <div class ="pre">
+            <p id="datetime"></p>
+            <script>
+                // Get current date and time
+                var now = new Date();
+                var datetime = now.toLocaleString();
+
+                // Insert date and time into HTML
+                document.getElementById("datetime").innerHTML = datetime;
+            </script>
+        </div>
+    </section>
+    <section id="pages">
+        <div class="box1">
+            <div class="under_1">
+                <p class="p1">DAILY TRANSACTION</p>
+            </div>
+            <div class="under1">
+                <div class="col1">
+                    <p>1990</p>
+                    <p class="p1">Today</p>
+                </div>
+                <div class="col2">
+                    <p>1170</p>
+                    <p class="p1">Yesterday</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="box2">
+            <div class="under_1">
+                <p class="p1">RESERVED TRANSACTION</p>
+            </div>
+            <div class="under1">
+                <div class="col1">
+                    <p>30</p>
+                    <p class="p1">Today</p>
+                </div>
+                <div class="col2">
+                    <p>17</p>
+                    <p class="p1">Yesterday</p>
+                </div>
+            </div>
+        </div>
+        <div class="box3">
+            <div class="under_1">
+                <p class="p1">ATM, WITHDRAWAL & TRANSFER</p>
+            </div>
+            <div class="under1">
+                <div class="col1">
+                    <p>114</p>
+                    <p class="p1">Today</p>
+                </div>
+                <div class="col2">
+                    <p>171</p>
+                    <p class="p1">Yesterday</p>
+                </div>
+            </div>
+        </div>
+        <div class="box4">
+            <div class="under_1">
+                <p class="p1">OUTWARD TRANSACTION</p>
+            </div>
+            <div class="under1">
+                <div class="col1">
+                    <p>523</p>
+                    <p class="p1">Today</p>
+                </div>
+                <div class="col2">
+                    <p>609</p>
+                    <p class="p1">Yesterday</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="pagess">
+        <div class="box5">
+            <div class="under_1">
+                <p class="p1">DAILY ACCOUNT OPENED</p>
+            </div>
+            <div class="under1">
+                <div class="col1">
+                    <p>17</p>
+                    <p class="p1">Today</p>
+                </div>
+                <div class="col2">
+                    <p>14</p>
+                    <p class="p1">Yesterday</p>
+                </div>
+            </div>
+            <div class="lastbox">
+                <p class="p3">BREAKDOWN BY BRANCH</p>
+                <table class="tables">
+                    <tr>
+                        <th>Branch</th>
+                        <th>Today</th>
+                        <th>Yesterday</th>
+                    </tr>
+                    <tr>
+                        <td>Adeola-H</td>
+                        <td>8</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Ogba</td>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Camp</td>
+                        <td>4</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Abuja</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Oko-Oba</td>
+                        <td>6</td>
+                        <td>7</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="boxx">
+            <div class="box6">
+                <div class="under_1">
+                    <p class="p1">INWARD TRANSACTION</p>
+                </div>
+                <div class="under1">
+                    <div class="col1">
+                        <p>640</p>
+                        <p class="p2">134895678</p>
+                        <p class="p1">Today</p>
+                    </div>
+                    <div class="col2">
+                        <p>171</p>
+                        <p class="p2">34895678</p>
+                        <p class="p1">Yesterday</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box7">
+                <div class="under_1">
+                    <p class="p1">REMITA TRANSACTONS</p>
+                </div>
+                <div class="under1">
+                    <div class="col1">
+                        <p>655</p>
+                        <p class="p2">64895678</p>
+                        <p class="p1">Today</p>
+                    </div>
+                    <div class="col2">
+                        <p>52</p>
+                        <p class="p2">6895678</p>
+                        <p class="p1">Yesterday</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box3">
+            <div class="under_1">
+                <p class="p1">MAIL SENT</p>
+            </div>
+            <div class="under1">
+                <div class="col1">
+                    <p>2349</p>
+                    <p class="p1">Today</p>
+                </div>
+                <div class="col2">
+                    <p>3718</p>
+                    <p class="p1">Yesterday</p>
+                </div>
+            </div>
+        </div>
+        <div class="box4">
+            <div class="under_1">
+                <p class="p1">SMS SENT</p>
+            </div>
+            <div class="under1">
+                <div class="col1">
+                    <p>3059</p>
+                    <p class="p1">Today</p>
+                </div>
+                <div class="col2">
+                    <p>16944</p>
+                    <p class="p1">Yesterday</p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+</body>
+</html>
